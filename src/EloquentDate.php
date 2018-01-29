@@ -1,13 +1,13 @@
 <?php
 
-namespace Seiler\EloquentDate;
+namespace EDewailly\EloquentDate;
 
 use Jenssegers\Date\Date;
 
 /**
  * Class EloquentDate
  *
- * @package Seiler\EloquentDate
+ * @package EDewailly\EloquentDate
  */
 trait EloquentDate
 {

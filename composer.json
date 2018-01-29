@@ -1,5 +1,5 @@
 {
-  "name": "seiler/eloquent-date",
+  "name": "e-dewailly/eloquent-date",
   "description": "A trait for Eloquent models to help you work with dates in different languages",
   "keywords": [
     "laravel",
@@ -12,7 +12,7 @@
     "carbon",
     "eloquent"
   ],
-  "homepage": "https://github.com/fredericseiler/eloquent-date",
+  "homepage": "https://github.com/e-dewailly/eloquent-date",
   "license": "MIT",
   "authors": [
     {
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Seiler\\EloquentDate\\": "src/"
+      "EDewailly\\EloquentDate\\": "src/"
     }
   }
 }

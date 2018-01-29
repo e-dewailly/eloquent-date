@@ -3,6 +3,8 @@
 [![Latest Version][ico-version]](https://packagist.org/packages/seiler/eloquent-date)
 [![Software License][ico-license]](LICENSE.md)
 
+This package is the fork of seiler/eloquent-date.
+
 This trait replaces Carbon with [Jenssegers\Date](https://github.com/jenssegers/date) in Laravel's Eloquent model.
 
 Jenssegers\Date extends [Carbon](https://github.com/briannesbitt/Carbon) with multi-language support. Methods such as `format`, `diffForHumans`, `parse`, `createFromFormat` and the new `timespan`, will now be translated based on your locale.
@@ -18,10 +20,9 @@ If you notice compliance oversights, please send a patch via pull request.
 
  Laravel | Eloquent-Date
 :--------|:--------
+ 5.5     | 5.5
  5.4     | 5.4
- 5.3     | 5.3
- 5.2     | 5.2
-
+ 
 ## Installation
 
 Install using composer:
