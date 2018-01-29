@@ -1,6 +1,6 @@
 # Eloquent-Date
 
-[![Latest Version][ico-version]](https://packagist.org/packages/seiler/eloquent-date)
+[![Latest Version][ico-version]](https://packagist.org/packages/e-dewailly/eloquent-date)
 [![Software License][ico-license]](LICENSE.md)
 
 This package is the fork of seiler/eloquent-date.
@@ -28,7 +28,7 @@ If you notice compliance oversights, please send a patch via pull request.
 Install using composer:
 
 ```bash
-$ composer require seiler/eloquent-date
+$ composer require e-dewailly/eloquent-date
 ```
 
 If you want to use Jenssegers\Date in other part of your application, there is a service provider included in the package [for integration](https://github.com/jenssegers/date#laravel) with the Laravel framework. This provider will get the application locale setting and use this for translations. To register the service provider, add the following to the providers array in `config/app.php`:
@@ -162,13 +162,10 @@ Tests...
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
-
-If you discover any security related issues, please email frederic@seiler.io instead of using the issue tracker.
-
 ## Credits
 
-- [Frederic Seiler](https://github.com/fredericseiler) for the trait
+- [Etienne Dewailly](https://github.com/e-dewailly) for the package
+- [Frederic Seiler](https://github.com/fredericseiler) for the original trait
 - [Jens Segers](https://github.com/jenssegers/date) for the Date library
 - [All Contributors](../../contributors)
 
@@ -176,5 +173,5 @@ If you discover any security related issues, please email frederic@seiler.io ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/seiler/eloquent-date.svg?style=flat-square
-[ico-license]: https://img.shields.io/packagist/l/seiler/eloquent-date.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/e-dewailly/eloquent-date.svg?style=flat-square
+[ico-license]: https://img.shields.io/packagist/l/e-dewailly/eloquent-date.svg?style=flat-square
